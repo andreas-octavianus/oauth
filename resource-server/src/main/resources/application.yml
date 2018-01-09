@@ -1,2 +1,13 @@
 server:
-  port: 9000
+  port: 9001
+security:
+  basic:
+    enabled: false
+  oauth2:
+    client:
+      client-id: manta
+      client-secret: secret
+      access-token-uri: http://localhost:9000/auth/oauth/token
+      user-authorization-uri: http://localhost:9000/auth/oauth/authorize
+    resource:
+      user-info-uri: http://localhost:9000/auth/user/me
