@@ -1,10 +1,10 @@
-package com.demo.resourceserver.controller;
+package com.demo.oauth.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloController {
+public class MessageController {
 
     @RequestMapping("/hello")
     public String getHello() {

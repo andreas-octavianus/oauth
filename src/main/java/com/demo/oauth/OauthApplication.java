@@ -1,12 +1,12 @@
-package com.demo.resourceserver;
+package com.demo.oauth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ResourceServerApplication {
+public class OauthApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ResourceServerApplication.class, args);
+		SpringApplication.run(OauthApplication.class, args);
 	}
 }
