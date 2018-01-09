@@ -1,5 +1,6 @@
 server:
-  port: 9001
+  port: 9002
+
 security:
   basic:
     enabled: false
@@ -7,7 +8,7 @@ security:
     client:
       client-id: manta
       client-secret: secret
-      access-token-uri: http://localhost:9000/auth/oauth/token
-      user-authorization-uri: http://localhost:9000/auth/oauth/authorize
+      access-token-uri: http://localhost:9001/oauth/token
+      user-authorization-uri: http://localhost:9001/oauth/authorize
     resource:
-      user-info-uri: http://localhost:9000/auth/user/me
+      user-info-uri: http://localhost:9001/user/me
